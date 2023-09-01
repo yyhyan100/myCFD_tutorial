@@ -7,3 +7,5 @@ does this really work?
 .....
 
 it does work!
+
+this will be a running CFD tutorial for the CDS&E class
