@@ -4,20 +4,21 @@
 
 ### Vector (1D Space)
 $\vec{v} = v_ie_i$
-$= v_1\vec{e}_1+v_2\vec{e}_2+v_3\vec{e}_3$
+$= v_1\vec{e}_1+v_2\vec{e}_2+v_3\vec{e}_3$ </br>
 with $\vec{e}_1,\vec{e}_2,\vec{e}_3$ referring to the $\vec{i},\vec{j},\vec{k}$ directions in 3D
 ### Matrix (2D Space)
 $\vec{A} = a_{ij}e_ie_j$
-$=a_{1j}e_1e_j+a_{2j}e_2e_j+a_{3j}e_3e_j$
+$=a_{1j}e_1e_j+a_{2j}e_2e_j+a_{3j}e_3e_j$ </br>
 each term can be expanded out further for $j=1,2,3$ for a total of 9 terms
 ### Array (3D space)
-$\vec{A} = a_{ijk}e_ie_je_k$
+$\vec{A} = a_{ijk}e_ie_je_k$ </br>
 resulting in 27 terms with the expansions of $i,j,k$
 ### Array (higher dimensions)
 general form of a tensor
 
 $\vec{A} = a_{i_1i_2\dots in}e_{i1}e_{i2}\dots e_{in}$
-resulting in an nD array (nth order tensor) in mD space $$m*m*m*m* \dots *m=m^n$$
+resulting in an nD array (nth order tensor) in mD space </br>
+$$m*m*m*m* \dots *m=m^n$$
 ## Kronecker Delta
 $\delta = \delta_{ij}e_ie_j$
 
@@ -41,6 +42,7 @@ $$
 -1 & \quad \text{if the indices are not in cyclic order}
 \end{cases}
 $$
+
 ### Free Indices
 indices that only occur once in a tensor term
 e.g. i is a free index in $v_{ij}w_{j}$
@@ -128,7 +130,7 @@ $\vec{A} \times \vec{B} = (a_{ij}b_{lmn} \epsilon_{ilk})e_ie_ke_me_n$
 ### Gradient
 $\nabla$
 
-### divergence
+### Divergence
 $\nabla^\bullet$
 
 ### Curl
