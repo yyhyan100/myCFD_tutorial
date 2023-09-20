@@ -121,20 +121,57 @@ reduces order
 i and j are both dummy indices so $\sum_{i} \sum_{j}$
 
 ### Cross Product
-also reduces order
+also reduces order </br>
 $e_i \times e_j = \epsilon_{ijk}e_k$ </br>
 $\vec{A} \times \vec{B} = (a_{ij}b_{lmn} \epsilon_{ilk})e_ie_ke_me_n$
 
 ## Advanced Tensor Operations
 
-### Gradient
-$\nabla$
+### Tensor Derivative
+#### Gradient
+The gradient is the general derivative for all functions. These are dyadic operations that increases the order by 1. </br>
 
-### Divergence
-$\nabla^\bullet$
+zeroth order scalar </br>
+$\nabla f(x,y) = <f_x, f_y> = \partial_i f e_i$
 
-### Curl
-$\nabla^\times$
+1D vector </br>
+$\nabla \vec{a} = (\partial_i a_j)e_ie_j$
 
-### Laplacian
-$\nabla^2$
+2D tensor </br>
+$\nabla \vec{A} = \partial_i a_{jk}e_ie_je_k$ </br>
+resulting in 27 terms
+
+
+#### Divergence
+The divergence is the gradient dot product. </br>
+
+1D vector </br>
+$\nabla \cdot \vec{a} = \partial_i a_j \epsilon_{ijk} e_k$
+
+2D tensor </br>
+$\nabla \cdot \vec{A} = \partial_i a_{jl} \epsilon_{ijk} e_k e_l$
+
+
+#### Curl
+1D vector </br>
+$\nabla \times \vec{a} = \partial_i a_i$
+
+2D tensor </br>
+$\nabla \times \vec{A} = \partial_i a_{ij} e_j$
+
+
+#### Laplacian
+$\nabla^2 = \nabla \cdot \nabla = \partial^2_i$
+
+1D vector </br>
+$\nabla^2 \vec{a} = \partial^2_i a_j e_j$
+
+2D tensor </br>
+$\nabla^2 \vec{A} = \partial^2_i a_{jk} e_j e_k$
+
+### Tensor Integration
+#### Kelvin-Stokes Theorem
+$\oint A \cdot d\vec{r} = \iint \nabla \times A d\vec{s}$
+
+#### Divergence Theorem
+$\oiint A \cdot d\vec{s} = \iiint (\nabla \cdot A) dV$
