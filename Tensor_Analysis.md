@@ -18,7 +18,7 @@ general form of a tensor
 
 $\vec{A} = a_{i_1i_2\dots in}e_{i1}e_{i2}\dots e_{in}$
 resulting in an nD array (nth order tensor) in mD space </br>
-$$m*m*m*m* \dots *m=m^n$$
+$$ m*m*m*m* ... *m=m^n $$
 ## Kronecker Delta
 $\delta = \delta_{ij}e_ie_j$
 
@@ -32,7 +32,7 @@ $$
 $$
 
 ## Alternating Unit Tensor (Ricci Notation)
-$$\epsilon=\epsilon_{ijk}e_ie_je_k$$
+$$ \epsilon=\epsilon_{ijk}e_ie_je_k $$
 with 
 $$
 \epsilon_{ijk}=
@@ -56,14 +56,14 @@ e.g. j is the dummy index in $A_{ij}B_{j}$
 
 ### Einstein's Notation
 summation of all components are implied with each coordinate axis
-$$\sum_{i=1}^3 {a_ib_i}=a_ib_i$$
+$$ \sum_{i=1}^3 {a_ib_i}=a_ib_i $$
 
 #### Back to Kronecker Tensor
 applying Einstein's notation along with free and dummy indices:
-$$a_i\delta_{ij}=a_j$$
-$$a_{ik}\delta_{ij}=a_{jk}$$
-$$b_{ijk}\delta_{km}=b_{ijm}$$
-$$a_{ij}\delta_{ij}=a_{ii}=a_{11}+a_{22}+a_{33}$$
+$$ a_i\delta_{ij}=a_j $$
+$$ a_{ik}\delta_{ij}=a_{jk} $$
+$$ b_{ijk}\delta_{km}=b_{ijm} $$
+$$ a_{ij}\delta_{ij}=a_{ii}=a_{11}+a_{22}+a_{33} $$
 
 only when i = j and k = m in all of the above
 
@@ -117,8 +117,8 @@ reduces order
 
 2. $\vec{A} \cdot \vec{B} = (a_{ij}b_{jmn})e_ie_me_n$
 
-3. $\vec{A} : \vec{B} = a_{ij}b_{jin}e_n$
-i and j are both dummy indices so $\sum_{i} \sum_{j}$
+3. $ \vec{A} : \vec{B} = a_{ij}b_{jin}e_n $
+i and j are both dummy indices so $ \sum_{i} \sum_{j}$
 
 ### Cross Product
 also reduces order </br>
@@ -174,4 +174,4 @@ $\nabla^2 \vec{A} = \partial^2_i a_{jk} e_j e_k$
 $\oint A \cdot d\vec{r} = \iint \nabla \times A d\vec{s}$
 
 #### Divergence Theorem
-$\oiint A \cdot d\vec{s} = \iiint (\nabla \cdot A) dV$
+$\oint A \cdot d\vec{s} = \iiint (\nabla \cdot A) dV$
