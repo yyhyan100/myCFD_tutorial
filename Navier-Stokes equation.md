@@ -21,7 +21,6 @@ $$ \frac{d\rho}{dt}=0 \Rightarrow \rho \nabla \vec{v} = 0 \Rightarrow  \nabla \v
 
 $$ \frac{d}{dt} \iiint_V \rho \vec{v} dV = \sum forces $$
 
-
  ### The forces consists of two parts: volume force and surface force .
 
 ### volume force:<br>
@@ -32,11 +31,9 @@ $$ \iiint_V \rho \,f dV $$ <br>
 
 $$ f = f(x, y, z, t) $$
 
-
 ### surface force:<br>
 
 $$ \oint\oint_S \vec{n} \sigma dS = \iiint_V \nabla \sigma dV $$<br>
-
 
 ### Final equation for the conservation of momentum :<br>
 
