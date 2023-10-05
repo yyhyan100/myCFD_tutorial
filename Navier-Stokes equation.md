@@ -42,4 +42,10 @@ $$ \oint\oint_S \vec{n} \sigma dS = \iiint_V \nabla \sigma dV $$<br>
 
 $$ \frac{d}{dt} \iiint_V \rho \vec{v} dV = \iiint_V \rho f dV + \iiint_V \nabla \sigma dV $$
 
+## Conservation of energy:
 
+$$ \frac{dE}{dt} = \vec{F} \vec{v} $$
+
+$$ \frac{d}{dt} \iiint_V [ e + \frac{1}{2}\rho \vec{v}^2]dV $$ <br>
+$$ = \iiint_V \vec{f} \vec{v}dV + \oint\oint_S \sigma \vec{n} \vec{v} dS $$ <br>
+$$ = \iiint_V \vec{f} \vec{v}dV + \iiint_V \nabla·(\sigma·\vec{v})dV $$
